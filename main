@@ -1,0 +1,516 @@
+import time
+from replit import audio
+def clearScreen():
+	print('\n' * 10000)
+
+def scene1():
+	clearScreen()
+	audio.play_file('source/bell.mp3')
+	input(" *Bell rings*")
+	input(" Teacher: That's all for today, class dismissed.")
+	input(" Eric: Hey Guys...")
+	input(" Rich: Yoo...")
+	input(" Renel: Oi! you guys heard about what happened at second floor?")
+	input(" Rich: Oh, I heard a rumour that 3 students died there")
+	input(" Rich: Though Im not sure")
+	input(" Rich: But they went missing and that's the last place they went to")
+	input(" Eric: I wonder what happened")
+	input(" Renel: Hey, since you guys are curious...")
+	audio.play_file('source/downstairs.mp3')	
+	input(" *They descended to second floor*")
+	input(" Rich: Don't you guys think this is a wrong idea?")
+	return
+def scene2():
+	clearScreen()
+	audio.play_file('source/chirp.mp3')	
+	input(" *Next Morning*")
+	input(" Eric: Hey guys! good morning")
+	input(" Renel: Oh hey, Eric")
+	input(" Rich: Let's go we're late")
+	input(" *They entered the school*")
+	input(" Rich: Oh wait, I thought were late for a second")
+	input(" Rich: But we still got 20 minutes")
+	input(" *5mins has passed*")
+	input(" Eric: God, this is so boring...")
+	input(" Renel: Hey guys, want to play some tag?")
+	return
+def scene3():
+	clearScreen()
+	input(" Guidance Counselor: Now it's time for a notice")
+	input(" Guidance Counselor: 3 students went missing afterschool")
+	input(" Guidance Counselor: The are last seen by their classmates on 2nd floor")
+	input(" Rich:(Hmm... Where could have they been?)")
+	input(" Sir Leonides: Alright class, go up to our room")
+	input(" Sir Leonides: Rich, Take the keys")
+	input(" Sir Leonides: I'll have something to attend for a minute")
+	input(" Rich: Okay, sir")
+	input(" Sir Leonides: And Eric, please water our plants")
+	input(" Sir Leonides: Stephanie and Renel, you two sell the soup today, mkay?")
+	input(" Rich: Eh?")
+	input(" *They ascend to 4th floor*")
+	input(" Rich: Damn, this is so exhausting")
+	input(" Renel: Hurry up!!!")
+	input(" Stephanie: What are you doing?")
+	input(" Stephanie: Hurry up and open the door")
+	audio.play_file('source/bell.mp3')	
+	time.sleep(4)
+	input(" Renel: Come on! The bell rang")
+	audio.play_file('source/door.mp3')	
+	return
+def scene3Character1():
+	clearScreen()
+	input(" Eric: Oh, there is the bottle")
+	input(" Eric: I have to fill that up to water the plants")
+	input(" *Eric got the bottle*")
+	input(" *Eric went to the 4th floor comfort room*")
+	input(" Eric: Then I just have to fill this up")
+	audio.play_file('source/pour.mp3')	
+	input(" Eric: This bottle only contains 1 liter?")
+	input(" Eric: I don't think this will be enough")
+	input(" *Eric went back to the classroom and wattered the plants*")
+	input(" Eric: I just wattered 1/3")
+	input(" Eric: Seems like I have to go back again")
+	input(" Eric: Oh is that rich? Maybe I can ask for help")
+	return
+def scene3Character2():
+	clearScreen()
+	input(" Renel: Alright... Gotta sell the soup")
+	input(" Renel: Hey Steph!")
+	input(" Renel: Have you forgot what Sir Leonides told us?")
+	input(" Steph: Hey Steph!")
+	return
+def scene4():
+	clearScreen()
+	input(" *Afternoon*")
+	audio.play_file('source/wind.mp3')	
+	input(" *The three look at the window of school*")
+	input(" *They saw a gang fight")
+	input(" Eric: They there are, fighting again")
+	input(" Renel: Damn those punks")
+	input(" Rich:: Yeah! So annoying")
+	input(" Renel: Wait up guys, imma take a leak ")
+	input(" *Renel went to the comfort room*")
+	audio.play_file('source/piss.mp3')	
+	input(" Renel: What's that stinky smell")
+	input(" Renel: It's Somewhere her-")
+	audio.play_file('source/door.mp3')	
+	input(" *As Renel is opening the door to the toilet,*")
+	input(" *Renel saw a dead body of a 4th grader sliced in half*")
+	input(" Renel: What in the holy-!?")
+	input(" *Renel ran back to Eric and Rich*")
+	input(" Renel: You guys!...")
+	input(" Renel: -wouldn't believe what I saw")
+	input(" Eric: What?")
+	input(" Eric: Some took a huge dump?")
+	input(" Renel: No! please, this is not a joke!")
+	input(" Eric: Oh, ok")
+	input(" *They all went to the comfort room*")
+	input(" Rich: Wha-!")
+	input(" Eric: Who would have done this?")
+	input(" Rich: Is this one of the missing student?")
+	input(" Renel: Hey, There's a cctv over here")
+	input(" *Renel point out the cctv outside the comfort room*")
+	input(" Rich: Let's give it a go tonight")
+	input(" Eric: We need to find this out")
+	input(" Renel: Do we really have to do this?")
+	input(" Renel: I think it's better if we report the body to the police")
+	input(" Eric: Yeah, we still need to do that after we found out who did this")
+	input(" Rich: Then it's all set...")
+def scene5():
+	clearScreen()
+	input(" Eric: Hey! Im here")
+	input(" Rich: Why are you so late?")
+	input(" Renel: Yeah It's already 6:40pm")
+	input(" Renel: Anyways...")
+	input(" Renel: What's the plan?")
+	input(" Rich: We don't have plan")
+	input(" Eric: What?")
+	input(" Rich: Except that we to see the cctv footage")
+	input(" Rich: We just have climb the wall so no one see us")
+	input(" Rich: Then it should be smooth sailing afterwards")
+	input(" Renel: Alright")
+	input(" *Rich climbed the wall*")
+	audio.play_file('source/jump.mp3')	
+	input(" Renel: What are you doing?!")
+	input(" Renel: You made too much noise")
+	input(" Rich: Oh well, just come here")
+	input(" Eric: Shit! The guard is coming this way")
+	input(" Renel: This is your fault, Rich")
+	input(" Rich: Agh! You guys are so noisy")
+	input(" Rich: We can just hide or run the other way round")
+	return
+def scene6():
+	clearScreen()
+	input(" Eric: Alright")
+	input(" Eric: There's the guard house")
+	input(" Eric: We can get the principal's office key there")
+	input(" Eric: Get it, Renel")
+	input(" Renel: Eh? why me")
+	input(" Eric: We will guard here to see if anyone will come")
+	input(" Eric: Alright")
+	input(" Rich: I'll do it")
+	input(" *Rich got the key*")
+	input(" Rich: Let's head to the office now")
+	audio.play_file('source/key.mp3')	
+	time.sleep(3)
+	audio.play_file('source/door.mp3')	
+	input(" Eric: There it is")
+	input(" Eric: The principal's computer")
+	input(" Rich: There's a password, Renel")
+	input(" Rich: Breach it")
+	audio.play_file('source/keyboard.mp3')	
+	input(" Rich: Hurry up, man")
+	input(" Rich: How long does this still take")
+	input(" Renel: Im not sure")
+	input(" Renel: But give me few minutes")
+	input(" Eric: Oh shit! ")
+	input(" Eric: Someone's coming ")
+	input(" Eric: Turn that off")
+	input(" Renel: Im so close to finishing")
+	input(" Rich: Forget about that")
+	input(" Renel: Alright, alright...")
+	input(" Rich: Shit!")
+	input(" Rich: We forgot to close the door")
+	input(" Eric: But we don't have that much time")
+	return
+def scene7():
+	clearScreen()
+	audio.play_file('source/clock.mp3')	
+	input(" Rich: What!?")
+	input(" Rich: It's already 7pm?")
+	input(" Rich: School closes at 7:15")
+	input(" Rich: We have to go now")
+	input(" Renel: What about the-?")
+	input(" Rich: Let's just forget about it")
+	input(" Rich: It's not like were gonna see who did this")
+	input(" Rich: The killer might have been deleted the file?")
+	input(" Eric: Yeah, let's go home")
+	input(" Renel: But...")
+	return
+def quiz():
+	def wrong():
+		clearScreen()
+		print("Wrong Answer!")
+		input(f"Current Score:{score}")
+		return
+	input(f" Renel: Damn Finished")
+	score = 0
+	print(f" Question: What is the sum of 4/8 and 7/8?")
+	answer = input(f"Answer: ")
+	if "11/8" in answer:
+		clearScreen()
+		score += 1
+		print("Correct!")
+		input(f"Current Score:{score}") 
+	else:
+		wrong()
+
+	print(f" Question: Simplify the ratio of 24:8?")
+	answer = input(f"Answer: ")
+	if "3:1" in answer:
+		clearScreen()
+		score += 1
+		print("Correct!")
+		input(f"Current Score:{score}") 
+	else:
+		wrong()
+
+	print(f" Question: If a building has a height of 60m, 20m length, and 20 in width, what is the area of the building.")
+	answer = input(f"Answer: ")
+	if "24000" in answer:
+		clearScreen()
+		score += 1
+		print("Correct!")
+		input(f"Current Score:{score}") 
+	else:
+		wrong()
+
+	print(f" Question: If a building has a height of 60m, 20m length, and 20 in width, what is the area of the building.")
+	answer = input(f"Answer: ")
+	if "24000" in answer:
+		clearScreen()
+		score += 1
+		print("Correct!")
+		input(f"Current Score:{score}") 
+	else:
+		wrong()
+	return
+
+def scene8():
+	clearScreen()
+	input(" *The next day*")
+	input(f" Renel: Alright, I gotta finish this math quiz real quick")
+	quiz()
+	input(" Renel: Damn, class is so boring")
+	input (" Renel: Oh, Claire is not finished on the quiz yet")
+	input(" Renel: I don't mind the view here though")
+	input(" Bell rings")
+	input(" Sir Leonides: Alright, class dismissed")
+	input(" Sir Leonides: Rich, Renel, Eric")
+	input(" Sir Leonides: Let's talk afterclass")
+	input("")
+
+
+
+
+clearScreen()
+print(" Erinel")
+time.sleep(3)
+def tutorial():
+	print(" Starting Tutorial...")
+	time.sleep(2)
+	clearScreen()
+	input(" You need to push the enter key to proceed ")
+	input(" Wrong input might bug and crash the game ")
+	input(" This game doesn't have save feature so dont close it until you finish ")
+	input(' If you ever a given a choice write "y" if yes and "n" if no ')
+	print(" (1) Choice A\n (2) Choice B\n (3) Choice C ")
+	input(" If you encounter a list, type the number of your choice ")
+	return
+tt = input(" Do you want to start tutorial? (y/n) ")
+if "y" in tt:
+	tutorial()
+if "n" in tt:
+	pass
+
+clearScreen()
+time.sleep(1)
+print(" Select Volume")
+print(" (1) Volume I")
+print(" (2) Volume II Akatsukot(Planned)")
+print(" (3) Volume III Kanto Revengers(Planned)")
+print(" (4) Volume IV Fever Dream(Planned)")
+print(" (5) Volume V Love is War(Planned)")
+print(" (6) Volume VI Pekoramid(Planned)")
+print(" (7) Volume VII D4DC(Planned)")
+print(" (8) Volume VIII Re:Re(Planned)")
+selectedVolume = input("")
+
+if "1" in selectedVolume:
+	clearScreen()
+	time.sleep(1)
+	print(" Select Chapter")
+	print(" 1")
+	print(" 2")
+	print(" 3")
+	selectedChapter = input("")
+
+time.sleep(1)
+def startgame():
+	if "1" in selectedVolume:
+		time.sleep(1)
+		if "1" in selectedChapter:
+			scene1()
+			def scene1A():
+				clearScreen()
+				input(" Eric: Let's Continue")
+				input(" Renel: Well, Then")
+				input(" *They started to walk through second floor*")
+				input(" *As they are going to the next end of the floor*")
+				audio.play_file('source/ball.mp3')	
+				input(" *They saw a ball bouncing from the stairs*")
+				input(" *They ran down at ground floor*")
+				input(" Eric: AAAH! that scared the shit out of me")
+				input(" Renel: Why there is a ball at times like this?")
+				input(" Rich: Yeah, who's playing that")
+				input(" Eric: Only 6th grade are in this school at time like this")
+				input(" Rich: I knew it! we shouldn't have gone there")
+				input(" Renel: Well that's fun, let's all go home")
+				return
+			def scene1B():
+				clearScreen()
+				input(" Eric: I don't think this is a good idea too")
+				input(" Renel: Well, Then")
+				input(" Rich: Let's go straight to home guys")
+			def question():
+				print(" Continue?(y/n)")
+				choiceScene = input("")
+				if "y" in choiceScene:
+					scene1A()
+				if "n" in choiceScene:
+					scene1B()
+			question()
+
+			scene2()
+			def scene2A():
+				clearScreen()
+				input(" *They played tag together*")
+				input(" Rich: Caught Ya!!!")
+				input(" Erich: Dang it!")
+				input(" Stephanie: You Guys!")
+				input(" *The three of them recieved a blow*")
+				input(" Stephanie: Come on! The flag ceremony is starting")
+				input(" *Flag Ceremony Started*")
+				input(" Everyone: Ang mamatay ng dahil sayo~")
+				return
+			def scene2B():
+				clearScreen()
+				input(" Eric: I don't really want to play right now")
+				input(" Renel: Okay dude")
+				input(" *Flag Ceremony Started*")
+				input(" Everyone: Ang mamatay ng dahil sayo~")
+				return
+			def question2():
+				print(" Play?(y/n)")
+				choiceScene = input("")
+				if "y" in  choiceScene:
+					scene2A()
+				if "n" in choiceScene:
+					scene2B()
+			question2()
+			scene3()
+
+			def scene3Character1a():
+				clearScreen()
+				input(" Eric: Hey rich!")
+				input(" Rich: Oh")
+				input(" Eric: Mind if you help me on watering the plants?")
+				input(" Rich: Sure!")
+				input(" *They went back to get more water*")
+				input(" Eric: With this much water, we are done")
+				input(" Eric: Thanks for helping, Rich")
+				input(" Rich: No probs")
+				input(" Renel: Guys")
+				input(' Renel: Want to play "Ride a bitch"?')
+				input(" Rich: What the is with that name")
+				input(" Renel: Oh, it's just the new game I invented")
+				input(" Rene: So are we playing?")
+				return
+			def scene3Character1b():
+				input(" Eric: Eh, I can do this alone")
+				input(" Eric: I should just bring 2 bottle")
+				input(" *Eric went to the comfort room*")
+				input(" Eric: Ahh...")
+				input(" Eric: This is so heavy")
+				input(" *Eric went back to the classroom*")
+				input(" Renel: Guys")
+				input(' Renel: Want to play "Ride a bitch"?')
+				input(" Rich: What the is with that name")
+				input(" Renel: Oh, it's just the new game I invented")
+				input(" Renel: So are we playing?")
+			def question3():
+				print("Ask for help?(y/n)")
+				choiceScene = input("")
+				if "y" in choiceScene:
+					scene3Character1a()
+				if "n" in choiceScene:
+					scene3Character1b()
+			def scene3Character1aa():
+				clearScreen()
+				input(" Eric: Ogey")
+				input(" Renel: Then!")
+				input(" Renel: Hmm... this game needs 4 members")
+				input(" Renel: Hey Quinn, want to play with us")
+				input(" Quinn: What game?")
+				input(" Renel: Ride a bitch")
+				input(" Quinn: You son of a bitch, Im in")
+				input(" Eric: I'll team up with Renel")
+				input(" Rich: Then I'll team up with Quinn")
+				input(" Renel: Then, Let's start the battle")
+				input(" Rich: Our battle will be legendary")
+				input(" Renel: Eric! Come on, hop on me")
+				input(" Rich: Wouldn't that make you the bitch")
+				input(" Renel: Eh?")
+				input(" Rich: Eh?")
+				input(" Renel: Doesn't matter")
+				input(" Renel: It's just a game")
+				input(" Quinn: Hurry rich, ride me")
+				input(" Stephanie: Sir Leonides is coming")
+				input(" Everyone: Oh shit!")
+				input(" Renel: Run for your lives")
+				input(" Eric: Hey!")
+				input(" Eric: Why are you running?")
+				input(" Eric: You're the one who invited us in the first place")
+				input(" *Sir Leonides enters the room*")
+				input(" Sir Leonides: Alright, good morning")
+				input(" Sir Leonides: Let's start our Mathematics class")
+				return
+			def scene3Character1ab():
+				clearScreen()
+				input("Eric: Let's just wait for Sir Leonides")
+				input("Renel: Oh, ok")
+				input(" *Sir Leonides enters the room*")
+				input(" Sir Leonides: Alright, good morning")
+				input(" Sir Leonides: Let's start our Mathematics class")
+				return
+			def question4():
+				print("Play?(y/n)")
+				choiceScene = input("")
+				if "y" in choiceScene:
+					scene3Character1aa()
+				if "n" in choiceScene:
+					scene3Character1ab()
+			scene3Character1()
+			question3()
+			scene3Character2()
+			question4()
+		if "2" in selectedChapter:
+			scene4()
+			scene5()
+			def scene5A():
+				clearScreen()
+				input(" Eric: Let's go the other way around")
+				input(" Rich: Come! before the guard sees us")
+				input(" Rich: Let's go to the guard house and get the key")
+				return
+			def scene5B():
+				clearScreen()
+				input(" Eric: Let's just hide")
+				input(" Rich: Alright there is a trash can here")
+				input(" Renel: What? Do you want us to enter here")
+				input(" Rich: I mean if you want to get caught, you can")
+				input(" Eric: Holy Moly!")
+				input(" Eric: We don't have much time")
+				input(" Eric: I can already see the guard's flashlight on the corner")
+				input(" Renel: Shit! Just hide on the back of the trash can")
+				input(" *The guard search where the noise is heard*")
+				input(" Rich: Wow! that was close")
+				input(" Eric: Yeah, and that's because of you")
+				input(" Rich: Okay, Okay, Let's forget about that")
+				return
+			def question5():
+				print("1. Hide")
+				print("2. Run other way")
+				print("(1/2)")
+				choiceScene = input("")
+				if "y" in  choiceScene:
+					scene5A()
+				if "n" in choiceScene:
+					scene5B()
+			scene6()
+			def scene6A():
+				clearScreen()
+				input(" Eric: Okay, I'll close the door")
+				audio.play_file('source/door2.mp3')	
+				input(" Eric: Pheww")
+				input(" Eric: Good thing he didn't heard me")
+				return
+			def scene6B():
+				clearScreen()
+				input(" Eric: Let's just hide")
+				input(" Eric: We really don't have that much time")
+				input(" Rich: Hope that the guard wont see us")
+				input(" Guard: Hmm...")
+				input(" Guard: The principal left his door's office open again")
+				input(" Guard: What a handful man")
+				audio.play_file('source/door2.mp3')	
+				return
+			def question5():
+				print("Close the door(y/n)")
+				choiceScene = input("")
+				if "y" in  choiceScene:
+					scene6A()
+				if "n" in choiceScene:
+					scene6B()
+
+			scene7()
+		if "3" in selectedChapter:	
+			scene8()
+		else:
+			input("That chapter is not available yet")
+
+	else:
+		input("Only Volume 1 is available")
+		return
+
+startgame()
